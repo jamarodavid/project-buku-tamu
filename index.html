@@ -24,9 +24,17 @@
 	</head>
 	<body>
 		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary">
+		<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
 			<div class="container">
-				<a class="navbar-brand" href="#">Rumah Makan Nusantara</a>
+				<a class="navbar-brand text-white" href="#">
+					<img
+						src="assets/img/brand-logo.svg"
+						alt="logo-rumah-makan-nusantara"
+						height="30px"
+						class="px-3 align-content-center"
+					/>
+					Rumah Makan Nusantara</a
+				>
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -40,7 +48,9 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav w-100 justify-content-end">
-						<a class="nav-link active" aria-current="page" href="#">Home</a>
+						<a class="nav-link active text-white" aria-current="page" href="#"
+							>Home</a
+						>
 						<a class="nav-link" href="#">Promo</a>
 						<a class="nav-link" href="#"> Register</a>
 						<a class="nav-link" href="#">Creator</a>
@@ -51,11 +61,67 @@
 		<!-- Navbar End -->
 
 		<!-- Jumbotron -->
-		<div class="jumbotron text-white">
+		<div
+			class="jumbotron text-white d-flex flex-column justify-content-center align-items-center"
+		>
 			<h1>Rumah Makan Nusantara</h1>
 			<p>Restaurant anti lapar</p>
+			<div class="register-btn">
+				<a href="#" class="btn btn-secondary">Register</a>
+			</div>
 		</div>
+
 		<!-- Jumbotron End -->
+
+		<!-- Favorito Menu -->
+		<div class="container text-center">
+			<div class="header-content">
+				<div class="menu">
+					<h1>
+						ME <br />
+						NU
+					</h1>
+				</div>
+				<h4>Menu Favorit Rumah Makan Nusantara</h4>
+			</div>
+			<div class="row">
+				<div class="col">
+					<img src="assets/img/food-dump.svg" alt="food-dump" />
+					<div class="circle">
+						<p>50rb</p>
+					</div>
+					<h2>Makanan</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu
+						erat sollicitudin urna luctus tempor eget ut ipsum
+					</p>
+				</div>
+				<div class="col">
+					>
+					<img src="assets/img/food-dump.svg" alt="food-dump" />
+					<div class="circle">
+						<p>50rb</p>
+					</div>
+					<h2>Makanan</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu
+						erat sollicitudin urna luctus tempor eget ut ipsum
+					</p>
+				</div>
+				<div class="col">
+					<img src="assets/img/food-dump.svg" alt="food-dump" />
+					<div class="circle">
+						<p>50rb</p>
+					</div>
+					<h2>Makanan</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu
+						erat sollicitudin urna luctus tempor eget ut ipsum
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- Favorito Menu End -->
 		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	</body>
 </html>
