@@ -119,6 +119,33 @@ body {
 	}
 }
 
+/* todo comment section */
+.comment-section {
+	width: 100%;
+	height: 100%;
+	margin-top: 2rem;
+}
+
+.comment-base {
+	width: 27rem;
+	height: 8rem;
+	background-color: #f6f6f6;
+	border-radius: 1.9rem;
+	-webkit-border-radius: 1.9rem;
+	-moz-border-radius: 1.9rem;
+	-ms-border-radius: 1.9rem;
+	-o-border-radius: 1.9rem;
+}
+
+.comment-base .comment-header {
+	display: flex;
+	justify-content: space-around;
+	width: 55%;
+	align-content: center;
+}
+
+/* todo comment section  end*/
+
 .bgrnd {
 	background-color: #dfcaa6;
 	width: auto;
