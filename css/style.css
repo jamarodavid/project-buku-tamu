@@ -39,6 +39,7 @@ body {
 	text-align: center;
 	padding-top: 3.2rem;
 	padding-right: 21.8rem;
+	color: #372300;
 }
 
 .header-content .menu {
@@ -116,4 +117,186 @@ body {
 	.nav-link:hover::after {
 		width: 30%;
 	}
+}
+
+.bgrnd {
+	background-color: #dfcaa6;
+	width: auto;
+	height: 100vh;
+}
+
+.gambarrest {
+	width: 366px;
+	height: 509px;
+	position: absolute;
+	margin: 90px 60px;
+	border-radius: 2%;
+}
+
+.bgrnd h2 {
+	margin: 20px 500px;
+	color: white;
+}
+
+.bgrnd p {
+	font-weight: 500;
+	width: 900px;
+	height: 333px;
+	font-size: large;
+	margin: 20px 500px;
+	color: white;
+}
+
+.komen {
+	width: auto;
+	height: 130vh;
+}
+
+.bckgdenah {
+	background-color: #dfcaa6;
+	width: auto;
+	height: 100vh;
+}
+
+.denah {
+	display: flex;
+	justify-content: center;
+	padding-top: 2%;
+}
+
+.bckgdenah h2 {
+	text-align: center;
+	color: white;
+	padding-top: 25px;
+}
+
+h3 {
+	font-weight: 900;
+	margin-left: 40px;
+}
+
+h4 {
+	font-weight: 900;
+	margin-left: 90px;
+	color: #180f00;
+}
+
+.tlpn img {
+	width: 37px;
+	height: 37px;
+}
+
+.gmbrtlpn {
+	margin-right: 1%;
+}
+
+.tlpn {
+	margin-left: 50px;
+	font-weight: 500;
+	font-size: x-large;
+	display: flex;
+}
+.jam img {
+	width: 37px;
+	height: 37px;
+}
+
+.gmbrjam {
+	margin-right: 1%;
+}
+
+.jam {
+	margin-left: 50px;
+	font-weight: 500;
+	font-size: x-large;
+	display: flex;
+}
+.tlg img {
+	width: 37px;
+	height: 37px;
+}
+
+.gmbrtlg {
+	margin-right: 1%;
+}
+
+.tlg {
+	margin-left: 50px;
+	font-weight: 500;
+	font-size: x-large;
+	display: flex;
+}
+.email img {
+	width: 37px;
+	height: 28px;
+}
+
+.gmbremail {
+	margin-right: 1%;
+}
+
+.email {
+	margin-left: 50px;
+	font-weight: 500;
+	font-size: x-large;
+	display: flex;
+}
+.insta img {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.gmbrinsta {
+	margin-right: 1%;
+}
+
+.insta p {
+	padding-top: 7px;
+	margin-right: 13px;
+}
+
+.insta {
+	margin-left: 43px;
+	font-weight: 500;
+	font-size: x-large;
+	display: flex;
+}
+.face img {
+	width: 50px;
+	height: 50px;
+}
+
+.face p {
+	padding-top: 7px;
+	margin-right: 13px;
+}
+
+.gmbrface {
+	margin-right: 1%;
+}
+
+.face {
+	margin-left: 43px;
+	font-weight: 500;
+	font-size: x-large;
+	display: flex;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.alamat p {
+	position: absolute;
+	width: 708px;
+	height: 62px;
+	left: 717px;
+	top: 3879px;
+	font-weight: 600;
+	text-align: right;
+	line-height: 31px;
+	font-size: 24px;
 }
