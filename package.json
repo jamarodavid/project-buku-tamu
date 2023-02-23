@@ -1,9 +1,14 @@
 {
+	"name": "projek-buku-tamu",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
 	"scripts": {
 		"start": "nodemon server.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"dependencies": {
+		"body-parser": "^1.20.2",
 		"ejs": "^3.1.8",
 		"express": "^4.18.2",
 		"mysql": "^2.18.1",

@@ -1,7 +1,11 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	font-family: "DM Sans", sans-serif;
-	overflow-x: hidden;
-	height: 100%;
 }
 
 .navbar {
@@ -194,4 +198,8 @@ body {
 	line-height: 0.5rem;
 	padding-top: 4rem;
 	font-weight: 600;
+}
+
+@media screen and (){
+	
 }
