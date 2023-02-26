@@ -25,20 +25,34 @@ app.set("view engine", "ejs");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
+// public
+app.use(express.static("public"));
+app.use("/css", express.static(__dirname + "public/css"));
+app.use("/icon", express.static(__dirname + "public/icon"));
+app.use("/img", express.static(__dirname + "public/img"));
+
 app.get("/", (req, res) => {
+	res.render("pages/home");
+});
+
+app.get("/home", (req, res) => {
+	res.render("pages/home");
+});
+
+app.get("/register", (req, res) => {
 	// res.send('CRUD Operation using NodeJS / ExpressJS / MySQL');
 	let sql = "SELECT * FROM users";
 	let query = connection.query(sql, (err, rows) => {
 		if (err) throw err;
-		res.render("user_index", {
-			title: "CRUD Operation using NodeJS / ExpressJS / MySQL",
+		res.render("pages/user_index", {
+			title: "Register",
 			users: rows,
 		});
 	});
 });
 
 app.get("/add", (req, res) => {
-	res.render("user_add", {
+	res.render("pages/user_add", {
 		title: "Isi form register di bawah ini",
 	});
 });
@@ -54,25 +68,16 @@ app.post("/save", (req, res) => {
 	let sql = "INSERT INTO users SET ?";
 	let query = connection.query(sql, data, (err, results) => {
 		if (err) throw err;
-		res.redirect("/");
+		res.redirect("/register");
 	});
 });
 
-app.get("/edit/:userId", (req, res) => {
-	const userId = req.params.userId;
-	let sql = `Select * from users where id = ${userId}`;
-	let query = connection.query(sql, (err, result) => {
-		if (err) throw err;
-		res.render("user_edit", {
-			title: "CRUD Operation using NodeJS / ExpressJS / MySQL",
-			user: result[0],
-		});
-	});
-});
-
-// link pages
 app.get("/promo", (req, res) => {
-	res.render("promo");
+	res.render("pages/promo");
+});
+
+app.get("/creator", (req, res) => {
+	res.render("pages/creator");
 });
 
 // Server Listening

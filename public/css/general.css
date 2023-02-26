@@ -1,0 +1,478 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	scroll-behavior: smooth;
+	font-family: "DM Sans", sans-serif;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.navbar {
+	background-color: #b48a44 !important;
+}
+
+.navbar-nav {
+	gap: 1rem;
+}
+
+.nav-link {
+	font-weight: 500;
+	color: white;
+}
+
+.nav-link {
+	text-transform: uppercase;
+}
+
+.nav-link::after {
+	content: "";
+	display: block;
+	width: 0%;
+	height: 3px;
+	background: white;
+	margin: auto;
+	border-radius: 20px;
+	transition: width 0.3s;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	-ms-transition: width 0.3s;
+	-o-transition: width 0.3s;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+.nav-link:hover::after {
+	width: 30%;
+}
+
+.jumbotron {
+	width: 100%;
+	height: 100vh;
+	background: url("../img/bg-nav.svg");
+	background-size: cover;
+	text-align: center;
+}
+
+.btn {
+	background-color: #b48a44;
+	border: none;
+}
+
+.btn:hover {
+	background-color: #a47e3d;
+}
+
+/* todo css home */
+.header-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-content .favorito {
+	margin: auto;
+}
+
+.content-fav {
+	text-align: start;
+	width: 100%;
+}
+
+.img-fav {
+	height: 55%;
+}
+
+.header-content .menu {
+	background-color: #b48a44;
+	padding: 0.9rem;
+	color: white;
+}
+
+.row {
+	padding: 2rem 0;
+}
+
+.circle {
+	display: flex;
+	align-items: center;
+	position: relative;
+	bottom: 3rem;
+	left: 70%;
+	background-color: #b48a44;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	-o-border-radius: 100%;
+}
+
+.circle p {
+	margin: auto;
+	font-weight: 500;
+}
+
+/* todo comment section */
+.comment-section img {
+	max-width: 100%;
+}
+/* todo comment section  end*/
+.latar-belakang {
+	background-color: #dfcaa6;
+	padding: 2rem 3.8rem;
+}
+
+.komen {
+	width: auto;
+	height: 130vh;
+}
+
+.bckgdenah {
+	background-color: #dfcaa6;
+	width: auto;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.denah {
+	display: flex;
+	justify-content: center;
+	padding-top: 2%;
+}
+
+.denah img {
+	max-width: 80%;
+}
+
+.bckgdenah h2 {
+	text-align: center;
+	color: white;
+}
+/* todo css home */
+
+.footer {
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+}
+
+.footer p a {
+	text-decoration: none;
+	color: black;
+}
+
+.alamat {
+	width: 40%;
+	font-weight: 600;
+	font-size: 1.2rem;
+	text-align: end;
+	position: absolute;
+	top: 33%;
+	left: 59%;
+}
+
+.footer-bottom {
+	text-align: center;
+	margin: auto;
+	line-height: 0.5rem;
+	padding-top: 4rem;
+	font-weight: 600;
+}
+
+/* todo css promo */
+.promo-section {
+	background-color: #dfcaa6;
+}
+
+.promo {
+	gap: 1.5rem !important;
+	width: 100vw;
+}
+
+.promo-content {
+	margin: auto;
+	display: flex;
+
+	gap: 5%;
+	align-items: center;
+}
+/* todo css promo end */
+
+/* todo css register */
+.table-register {
+	margin: 4rem 2rem;
+	height: 150vh;
+}
+
+/* todo css register end */
+
+/* todo css add */
+.register-form {
+	margin: 6rem 4rem;
+}
+/* todo css add end */
+
+/* todo css creator */
+.creator-heading {
+	margin-top: 6rem;
+	text-align: center;
+}
+
+.left-bio {
+	display: flex;
+	margin-top: 2rem;
+	padding: 4rem 3rem;
+}
+
+.left-bio .bio {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+.left-bio img {
+	max-width: 90%;
+	height: auto;
+	border-radius: 100%;
+	border-style: outset;
+	border-color: #dfcaa6;
+	border-width: 7px;
+}
+
+.left-bio .bio .bio-content {
+	padding-top: 1rem;
+}
+
+.left-bio .kes-pes {
+	width: 70%;
+	text-align: right;
+}
+
+.right-bio {
+	background-color: #b48a44;
+	display: flex;
+	flex-direction: row-reverse;
+	color: white;
+	padding: 4rem 3rem;
+}
+
+.right-bio .bio .bio-content {
+	padding-top: 1rem;
+}
+
+.right-bio img {
+	max-width: 90%;
+	height: auto;
+	border-radius: 100%;
+	border-style: outset;
+	border-color: #dfcaa6;
+	border-width: 7px;
+}
+
+.right-bio .bio {
+	display: flex;
+	justify-content: flex-end !important;
+	flex-direction: column;
+	text-align: right;
+	width: 70%;
+}
+
+.right-bio .kes-pes {
+	width: 70%;
+}
+
+/* todo css creator end */
+
+/* Responsive Breakpoints */
+
+/* Mobile */
+@media screen and (max-width: 450px) {
+	html {
+		font-size: 72%;
+	}
+
+	.favorito h2 {
+		font-size: 1.4rem;
+	}
+
+	.navbar-brand {
+		font-size: 1rem !important;
+	}
+
+	.nav-link {
+		font-size: 0.9rem;
+		text-transform: capitalize;
+	}
+
+	.latar-belakang {
+		font-size: 74%;
+	}
+
+	.regist-btn {
+		font-size: 1rem;
+	}
+
+	.bckgdenah {
+		max-height: 75%;
+		gap: 10%;
+	}
+
+	.img-fav {
+		height: 80%;
+	}
+
+	.footer-heading h4 {
+		font-size: 90%;
+	}
+
+	.social .icon img {
+		width: 20px;
+	}
+
+	.social p {
+		font-size: 74% !important;
+	}
+
+	.alamat {
+		/* width: 20%; */
+		max-width: 57%;
+		font-size: 0.6rem !important;
+		text-align: end;
+		position: absolute;
+		top: 9%;
+		left: 40% !important;
+	}
+
+	.footer-bottom p,
+	a {
+		font-size: 0.6rem !important;
+	}
+	.footer-bottom p {
+		font-size: 0.6rem !important;
+	}
+	.promo-content p {
+		font-size: 0.9rem !important;
+		width: 75%;
+		margin: auto;
+	}
+
+	.bio-content,
+	.kes-pes {
+		font-size: 0.7rem !important;
+	}
+
+	.bio-content h4 {
+		font-size: 1rem;
+		max-width: 100%;
+	}
+	.bio-content h6 {
+		font-size: 0.8rem !important;
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	html {
+		font-size: 100%;
+	}
+
+	.img-fav {
+		height: 58%;
+	}
+	.footer-heading h4 {
+		font-size: 100%;
+	}
+
+	.social .icon img {
+		width: 25px;
+	}
+
+	.social p {
+		font-size: 90%;
+	}
+
+	.alamat {
+		/* width: 20%; */
+		width: 65%;
+		font-size: 0.8rem;
+		text-align: end;
+		position: absolute;
+		top: 9%;
+		left: 35%;
+	}
+
+	.footer-bottom p,
+	a {
+		font-size: 90%;
+	}
+	.footer-bottom p {
+		font-size: 60%;
+	}
+
+	.bckgdenah h2 {
+		padding-top: 5%;
+	}
+
+	.promo-content {
+		flex-wrap: wrap;
+	}
+
+	.gmbrp1 {
+		margin: auto;
+	}
+
+	.gmbrp2 {
+		margin: auto;
+	}
+
+	.promo-text {
+		padding-top: 2rem;
+	}
+
+	.promo-text h4 {
+		text-align: center;
+	}
+	.promo-text p {
+		text-align: justify;
+		width: 90%;
+		margin: auto;
+	}
+
+	.btn-add {
+		font-size: 0.8rem;
+	}
+
+	.bio-content,
+	.kes-pes {
+		font-size: 0.7rem !important;
+	}
+
+	.bio img {
+	}
+}
+@media screen and (max-width: 992px) {
+	/* promo */
+	.promo-content .gmbrp1 img {
+		width: 20rem;
+	}
+
+	.promo-content .gmbrp2 img {
+		width: 20rem;
+	}
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%- include('../partials/head') %>
+	</head>
+	<body>
+		<div class="container">
+			<!-- navbar -->
+			<%- include('../partials/navbar') %>
+			<!-- navbar end -->
+
+			<div class="table-register">
+				<h2><%= title %></h2>
+
+				<div class="table-responsive w-100">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Nama</th>
+								<th>Kontak</th>
+								<th>Waktu Datang</th>
+								<th>Nomor Meja</th>
+								<th>Abjad Meja</th>
+							</tr>
+						</thead>
+						<tbody>
+							<% users.forEach(function(user){ %>
+							<tr>
+								<td><%= user.nama %></td>
+								<td><%= user.kontak %></td>
+								<td><%= user.waktu %></td>
+								<td><%= user.abjad_meja %></td>
+								<td><%= user.nomor_meja %></td>
+							</tr>
+							<% }); %>
+						</tbody>
+					</table>
+				</div>
+				<div class="cta text-center">
+					<a href="/add" class="btn btn-sm btn-primary p-2 fs-6 btn-add"
+						>Add User</a
+					>
+				</div>
+			</div>
+		</div>
+		<!-- footer -->
+		<%- include('../partials/footer') %>
+		<!-- footer end -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

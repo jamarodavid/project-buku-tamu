@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "DM Sans", sans-serif;
+}
+
+.btn {
+	background-color: #b48a44;
+	border: none;
+}
+
+.btn:hover {
+	background-color: #a47e3d;
+}
+
+.navbar {
+	background-color: #b48a44 !important;
+}
+
+.navbar-nav {
+	gap: 1rem;
+}
+
+.nav-link {
+	font-weight: 500;
+	color: white;
+}
+
+.nav-link {
+	text-transform: uppercase;
+}
+
+.nav-link::after {
+	content: "";
+	display: block;
+	width: 0%;
+	height: 3px;
+	background: white;
+	margin: auto;
+	border-radius: 20px;
+	transition: width 0.3s;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	-ms-transition: width 0.3s;
+	-o-transition: width 0.3s;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+.nav-link:hover::after {
+	width: 30%;
+}
+
+.jumbotron {
+	width: 100%;
+	height: 100vh;
+	background: url("../img/bg-nav.svg");
+	background-size: cover;
+	text-align: center;
+}
+
+.bgroundp1 {
+	height: 100vh;
+	background-color: #dfcaa6;
+	display: flex;
+}
+
+.gmbrp1 img {
+	width: 25rem;
+	height: 25rem;
+	margin-top: 10%;
+	margin-left: 17%;
+}
+
+.porp1 p {
+	width: 665px;
+	height: 388px;
+	font-size: larger;
+	font-weight: 500;
+	margin-left: 19%;
+	margin-top: 8%;
+}
+
+.bgroundp2 {
+	height: 100vh;
+	background-color: #dfcaa6;
+	display: flex;
+}
+
+.gmbrp2 img {
+	width: 25rem;
+	height: 25rem;
+	margin-left: 17%;
+}
+
+.porp2 p {
+	width: 665px;
+	height: 388px;
+	font-size: larger;
+	font-weight: 500;
+	margin-left: 19%;
+	margin-top: 4%;
+}
+
+.tlpn img {
+	width: 24px;
+	height: 24px;
+}
+
+.gmbrtlpn {
+	margin-right: 1%;
+}
+
+.tlpn {
+	margin-left: 60px;
+	font-weight: 500;
+	font-size: 900;
+	display: flex;
+}
+.jam img {
+	width: 24px;
+	height: 24px;
+}
+
+.gmbrjam {
+	margin-right: 1%;
+}
+
+.jam {
+	margin-left: 60px;
+	font-weight: 500;
+	font-size: 900;
+	display: flex;
+}
+.tlg img {
+	width: 24px;
+	height: 24px;
+}
+
+.gmbrtlg {
+	margin-right: 1%;
+}
+
+.tlg {
+	margin-left: 60px;
+	font-weight: 500;
+	font-size: 900;
+	display: flex;
+}
+.email img {
+	width: 25px;
+	height: 20px;
+}
+
+.gmbremail {
+	margin-right: 1%;
+}
+
+.email {
+	margin-left: 58px;
+	font-weight: 500;
+	font-size: 900;
+	display: flex;
+}
+.insta img {
+	width: 35px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.gmbrinsta {
+	margin-right: 1%;
+}
+
+.insta p {
+	padding-top: 7px;
+	margin-right: 15px;
+}
+
+.insta {
+	margin-left: 53px;
+	font-weight: 500;
+	font-size: 900;
+	display: flex;
+}
+.face img {
+	width: 35px;
+	height: 35px;
+}
+
+.face p {
+	padding-top: 7px;
+	margin-right: 13px;
+}
+
+.gmbrface {
+	margin-right: 1%;
+}
+
+.face {
+	margin-left: 53px;
+	font-weight: 500;
+	font-size: 900;
+	display: flex;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	margin: 3rem;
+}
+
+.alamat {
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+}
+
+.alamat p {
+	font-weight: 300;
+	text-align: right;
+	line-height: 31px;
+	font-size: 1rem;
+}
+
+.footer-bottom {
+	text-align: center;
+	margin: auto;
+	line-height: 0.5rem;
+	padding-top: 2rem;
+	font-weight: 600;
+}
+
