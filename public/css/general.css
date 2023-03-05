@@ -89,7 +89,7 @@ body {
 }
 
 .img-fav {
-	height: 55%;
+	height: 60%;
 }
 
 .header-content .menu {
@@ -177,6 +177,25 @@ body {
 	color: black;
 }
 
+.copyright {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	position: relative;
+}
+
+.copyright img {
+	height: 0.9rem;
+	width: auto;
+	position: absolute;
+	bottom: 13px;
+	left: -18px;
+}
+
+.copyright p {
+	font-size: 1rem;
+}
+
 .alamat {
 	width: 40%;
 	font-weight: 600;
@@ -208,9 +227,13 @@ body {
 .promo-content {
 	margin: auto;
 	display: flex;
-
 	gap: 5%;
 	align-items: center;
+}
+
+.gmbrp1,
+.gmbrp2 {
+	max-width: 100%;
 }
 /* todo css promo end */
 
@@ -246,7 +269,7 @@ body {
 	width: 70%;
 }
 
-.left-bio img {
+.left-bio .bio-img img {
 	max-width: 90%;
 	height: auto;
 	border-radius: 100%;
@@ -276,7 +299,7 @@ body {
 	padding-top: 1rem;
 }
 
-.right-bio img {
+.right-bio .bio-img img {
 	max-width: 90%;
 	height: auto;
 	border-radius: 100%;
@@ -295,6 +318,22 @@ body {
 
 .right-bio .kes-pes {
 	width: 70%;
+}
+
+.social-creator img {
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-o-transition: 0.2s;
+}
+
+.social-creator img:hover {
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
 }
 
 /* todo css creator end */
@@ -359,12 +398,18 @@ body {
 		left: 40% !important;
 	}
 
-	.footer-bottom p,
-	a {
-		font-size: 0.6rem !important;
+	.footer-bottom a {
+		font-size: 0.7rem !important;
+	}
+	.footer-bottom .copyright p {
+		font-size: 65% !important;
+	}
+
+	.footer-bottom .copyright p {
+		left: -50px;
 	}
 	.footer-bottom p {
-		font-size: 0.6rem !important;
+		font-size: 0.7rem !important;
 	}
 	.promo-content p {
 		font-size: 0.9rem !important;
@@ -419,7 +464,7 @@ body {
 
 	.footer-bottom p,
 	a {
-		font-size: 90%;
+		font-size: 0.9rem !important;
 	}
 	.footer-bottom p {
 		font-size: 60%;
@@ -461,9 +506,6 @@ body {
 	.bio-content,
 	.kes-pes {
 		font-size: 0.7rem !important;
-	}
-
-	.bio img {
 	}
 }
 @media screen and (max-width: 992px) {
