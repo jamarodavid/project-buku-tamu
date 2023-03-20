@@ -1,10 +1,7 @@
-#Projek Buku Tamu  - Kelas Industri
+# Projek Buku Tamu  - Kelas Industri
 
-[TOCM]
-
-####Kelompok 11  - X SIJA 1 :
+#### Kelompok 11  - X SIJA 1 :
 **Ketua** : Jamaro David Saragih (FrontEnd)
-
 **Anggota** :  
 - Raditya Ananda Rohman (BackEnd)
 - Fadil Muhammad (UI/UX)
@@ -12,10 +9,10 @@
 - Annisa Luna Syaila (UI/UX)
 - Anisa Azahrah (UI/UX)
 
-###Tentang Projek Kami
+### Tentang Projek Kami
 Projek kami didasarkan dari tugas kelas industri yang diselenggarakan oleh Institut Kemandirian dan TemanCoding yang berupa website pemesanan buku tamu. Seperti temanya, pemesanan buku tamu, website kami adalah tentang sebuah rumah makan yang bernama Rumah Makan Nusantara yang dimana customer dapat memesan meja di website kami.
 
-###Teknologi yang digunakan
+### Teknologi yang digunakan
 Projek buku tamu menggunakan teknologi - teknologi sebagai berikut : 
 - ![Node JS](https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg "Node JS") 
 
