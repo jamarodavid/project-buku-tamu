@@ -1,5 +1,4 @@
 # Projek Buku Tamu  - Kelas Industri
-![image](https://github.com/jamarodavid/project-buku-tamu/assets/119278874/e0f9bde4-09d4-41e5-9455-f289775de3d0)
 
 
 
